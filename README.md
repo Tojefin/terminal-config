@@ -2,7 +2,17 @@
 
 My config files for Linux.
 
-Run: `./install.sh`
+Run:
+```
+sudo apt update
+sudo apt install tmux
+```
+```
+tmux
+```
+```
+sh ./install.sh
+```
 
 ## tmux
 
