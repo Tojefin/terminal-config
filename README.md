@@ -11,7 +11,7 @@ Run: `./install.sh`
 - update plugins: `Ctrl B` and then `Shift I`
 - update source file: `tmux source ~/.tmux.conf`
 
-### Conrolls:
+### Controls:
 
 - Create window: `Ctrl + c`
 - Close window: `Ctrl + x`
