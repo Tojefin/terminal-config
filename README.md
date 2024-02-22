@@ -27,4 +27,5 @@ sh ./install.sh
 - Close window: `Ctrl + x`
 - Rename window: `Ctrl + r`
 - Navigate windows left/right - `Ctrl + Left/Right`
+- Move windows on bar - `Ctrl + Up/Down`
 - Reload tmux: `Ctrl + R`
