@@ -18,14 +18,22 @@ sh ./install.sh
 
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 - [Dracula theme](https://draculatheme.com/tmux)
-- update plugins: `Ctrl B` and then `Shift I`
+- update plugins: `Ctrl b` and then `Shift I`
 - update source file: `tmux source ~/.tmux.conf`
 
 ### Controls:
 
-- Create window: `Ctrl + c`
-- Close window: `Ctrl + x`
-- Rename window: `Ctrl + r`
+Window:
+- Create window: `(Ctrl + b) + c`
+- Close window: `(Ctrl + b) + x`
+- Rename window: `(Ctrl + b) + r`
 - Navigate windows left/right - `Ctrl + Left/Right`
 - Move windows on bar - `Ctrl + Up/Down`
-- Reload tmux: `Ctrl + R`
+
+Pane (Split):
+- Split window h/v - `(Ctrl + b) + "/%`
+- Unsplit window - `(Ctrl + b) + !`
+- Navigate window panes - `(Ctrl + b) + Arrows`
+
+Tmux system:
+- Reload tmux: `(Ctrl + b) + R`
