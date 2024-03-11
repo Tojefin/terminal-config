@@ -4,22 +4,16 @@ My config files for Linux.
 
 Run:
 ```
-sudo apt update
-sudo apt install tmux
-```
-```
-tmux
-```
-```
 sh ./install.sh
 ```
 
 ## tmux
 
-- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-- [Dracula theme](https://draculatheme.com/tmux)
-- update plugins: `Ctrl b` and then `Shift I`
-- update source file: `tmux source ~/.tmux.conf`
+- install.sh include:
+  - Tmux
+  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+  - [Dracula theme](https://draculatheme.com/tmux)
+- update plugins: run `Ctrl b` and then `Shift I`
 
 ### Controls:
 
