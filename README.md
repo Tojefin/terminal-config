@@ -4,16 +4,20 @@ My config files for Linux.
 
 Run:
 ```
+git clone https://github.com/Tojefin/terminal-config.git
+cd terminal-config
 sh ./install.sh
 ```
+update plugins: press `Ctrl b` and then `Shift I`
 
 ## tmux
 
-- install.sh include:
+install.sh include:
   - Tmux
   - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
   - [Dracula theme](https://draculatheme.com/tmux)
-- update plugins: run `Ctrl b` and then `Shift I`
+  - New source path config
+  - Auto-start script at .bashrc
 
 ### Controls:
 
