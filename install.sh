@@ -11,4 +11,4 @@ cp .tmux.conf ~/.tmux.conf
 tmux source ~/.tmux.conf
 
 # Add auto-start script
-cat .bashrc-autostart >> ~/.bashrc
+cat bashrc-autostart >> ~/.bashrc
