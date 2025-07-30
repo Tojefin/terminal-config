@@ -5,7 +5,8 @@ My config files for Linux.
 Run:
 ```
 # Docker
-curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+curl -sSL https://get.docker.com | sh
+exit
 
 git clone https://github.com/Tojefin/terminal-config.git
 cd terminal-config
