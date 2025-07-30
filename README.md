@@ -8,6 +8,7 @@ Run:
 curl -sSL https://get.docker.com | sh
 exit
 
+#Tmux
 git clone https://github.com/Tojefin/terminal-config.git
 cd terminal-config
 sh ./install.sh
