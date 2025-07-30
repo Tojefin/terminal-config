@@ -4,6 +4,9 @@ My config files for Linux.
 
 Run:
 ```
+# Docker
+curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+
 git clone https://github.com/Tojefin/terminal-config.git
 cd terminal-config
 sh ./install.sh
