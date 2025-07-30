@@ -2,20 +2,13 @@
 
 My config files for Linux.
 
+## tmux
+
 Run:
 ```
-# Docker
-curl -sSL https://get.docker.com | sh
-exit
-
-#Tmux
-git clone https://github.com/Tojefin/terminal-config.git
-cd terminal-config
-sh ./install.sh
+git clone https://github.com/Tojefin/terminal-config.git && cd terminal-config && sh ./install.sh
 ```
 update plugins: press `Ctrl b` and then `Shift I`
-
-## tmux
 
 install.sh include:
   - Tmux
@@ -40,3 +33,20 @@ Pane (Split):
 
 Tmux system:
 - Reload tmux: `(Ctrl + b) + R`
+
+## docker
+
+Run:
+```
+curl -sSL https://get.docker.com | sh
+```
+
+## nginx proxy manager
+
+Run:
+```
+cd nginx-proxy-manager && docker compose up -d
+```
+http://0.0.0.0:81 - admin panel
+Email:    admin@example.com
+Password: changeme

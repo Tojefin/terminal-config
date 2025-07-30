@@ -1,3 +1,6 @@
+# Update
+apt update && apt upgrade -y
+
 # Install Tmux
 apt install tmux
 
@@ -11,4 +14,4 @@ cp .tmux.conf ~/.tmux.conf
 tmux source ~/.tmux.conf
 
 # Add auto-start script
-cat bashrc-autostart >> ~/.bashrc
+# cat bashrc-autostart >> ~/.bashrc
