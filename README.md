@@ -19,20 +19,30 @@ install.sh include:
 
 ### Controls:
 
+Tmux system:
+- Prefix: `Ctrl + Space`
+- Reload tmux: `Prefix + %`
+
+Session:
+- Create named session: `tmux new -s <name>`
+- Open named session: `tmux attach -t <name>`
+- Create session: `Prefix + C`
+- List of sessions: `Prefix + S` (tmux ls)
+- Rename session: `Prefix + R`
+- Navigate sessions next/prev: `Prefix + (/)`
+- Kill session: `Prefix + D`
+
 Window:
-- Create window: `(Ctrl + b) + c`
-- Close window: `(Ctrl + b) + x`
-- Rename window: `(Ctrl + b) + r`
+- Create window: `Prefix + c`
+- Close window: `Prefix + x`
+- Rename window: `Prefix + r`
 - Navigate windows left/right - `Ctrl + Left/Right`
 - Move windows on bar - `Ctrl + Up/Down`
 
 Pane (Split):
-- Split window h/v - `(Ctrl + b) + "/%`
-- Unsplit window - `(Ctrl + b) + !`
-- Navigate window panes - `(Ctrl + b) + Arrows`
-
-Tmux system:
-- Reload tmux: `(Ctrl + b) + R`
+- Split window h/v - `Prefix + -/|`
+- Unsplit window - `Prefix + !`
+- Navigate window panes - `Prefix + Arrows`
 
 ## docker
 
@@ -49,4 +59,5 @@ cd nginx-proxy-manager && docker compose up -d
 ```
 http://0.0.0.0:81 - admin panel
 Email:    admin@example.com
+
 Password: changeme
